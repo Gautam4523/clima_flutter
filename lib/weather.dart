@@ -1,5 +1,5 @@
-import 'package:clima_flutter/location.dart';
-import 'network_helper.dart';
+import 'common/location.dart';
+import 'network_helper/network_helper.dart';
 
 const apiKey = '7c13fdaa5e3463484257d3799447bb17';
 const newWeatherData = 'https://api.openweathermap.org/data/2.5/weather';

@@ -1,4 +1,5 @@
-import 'weather.dart';
+import '../weather.dart';
+
 import 'package:flutter/material.dart';
 import 'city_screen.dart';
 
@@ -118,48 +119,3 @@ class _LocationScreenState extends State<LocationScreen> {
     );
   }
 }
-
-// children: [
-// Row(
-// mainAxisAlignment: MainAxisAlignment.spaceBetween,
-// children: <Widget>[
-// TextButton(
-// onPressed: () {},
-// child: Icon(
-// Icons.near_me,
-// size: 50.0,
-// ),
-// ),
-// TextButton(
-// onPressed: () {},
-// child: Icon(
-// Icons.location_city,
-// size: 50.0,
-// ),
-// ),
-// ],
-// ),
-// Padding(
-// padding: EdgeInsets.only(left: 15.0),
-// child: Row(
-// children: <Widget>[
-// Text(
-// '32°',
-// // style: kTempTextStyle,
-// ),
-// Text(
-// '☀️',
-// // style: kConditionTextStyle,
-// ),
-// ],
-// ),
-// ),
-// Padding(
-// padding: EdgeInsets.only(right: 15.0),
-// child: Text(
-// "It's 🍦 time in San Francisco!",
-// textAlign: TextAlign.right,
-// // style: kMessageTextStyle,
-// ),
-// ),
-// ],

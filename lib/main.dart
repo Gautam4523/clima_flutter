@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'loading_page.dart';
+import 'common/loading_page.dart';
 
 void main() {
   runApp(MyApp());
